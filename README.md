@@ -1,8 +1,13 @@
-# fbStats
+# Facebook messages statistics
 This application can show you various data about your Facebook messages. It uses the facebook JSON data export to do this. 
 
 It counts the messages per day/month/year and it also counts the words used. 
+![Screenshot1](img1.PNG)
+
 It can visualise chronic usage of words and interest of both sides in having conversation.
+![Screenshot2](img2.PNG)
+
+
 
 How to use this:
 
