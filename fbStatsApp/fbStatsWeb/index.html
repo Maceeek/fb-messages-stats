@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="styly.css">
+
+
+    <title>Fb chat stats</title>
+
+
+    <script src="Chart.min.js"></script>
+    <script src="jquery.js"></script>
+
+
+</head>
+<body class="bood">
+  
+    <ul class="topnav" id="myTopnav">
+        <li>
+            <a class="topnavText">FB STATS</a>
+        </li>
+        <li>
+
+            <div class="dropdown">
+                <button id="listBtn" onclick="dropDownClick()">select chat</button>
+                <div id="listLidi" class="dropdown-content">
+
+                </div>
+            </div>
+
+
+        </li>
+
+        <li>
+            <a class="topnavText2" id="selPerson"></a>
+        </li>
+
+
+    </ul>
+
+   
+
+    <div id="charts" style="margin-top:75px;">
+
+        
+
+        <div class="row" style="margin-bottom:30px;">
+            <div id="charts0" class="category">
+                <div class="catTextDiv2">
+                    <a id="stat1"></a>
+                </div>
+                <div class="catTextDiv2">
+                    <a id="stat2"></a>
+                </div>
+                <div class="catTextDiv2">
+                    <a id="stat3"></a>
+                </div>
+                <div class="catTextDiv2">
+                    <a id="stat4"></a>
+                </div>
+                <div class="catTextDiv2">
+                    <a id="stat5"></a>
+                </div>
+
+
+            </div>
+            <div id="charts1" class="category">
+                <div class="catTextDiv">
+                    <a>Messages per day</a>
+                </div>
+            </div>
+            <div id="charts2" class="category">
+                <div class="catTextDiv">
+                    <a>Messages per month</a>
+                </div>
+            </div>
+            <div id="charts3" class="category">
+                <div class="catTextDiv">  <a>Message delta</a></div>
+            </div>
+            <div id="charts4" class="category">
+                <div class="catTextDiv">  <a>Message per year</a></div>
+            </div>
+            <div id="charts5" class="category">
+                <div class="catTextDiv">  <a>Used words count</a></div>
+
+            </div>
+            <div id="charts6" class="category">
+                <div class="catTextDiv">  <a>Comparison of word count</a></div>
+            </div>
+
+
+        </div>
+        <script src="showChart.js" data="charts"></script>
+
+</body>
+</html>
