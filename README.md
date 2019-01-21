@@ -23,5 +23,6 @@ How to use this:
 5. Run fbStatsApp.exe
 
 
-This is still a very raw project. Hopefuly more I'll get around to add more statistical function (and value) to this program. By now it is just a weekend project that I have done. I'm posting this publicly because someone could find it useful or entertaining.
+This is still a very raw project. Hopefuly I'll get around to add more statistical function (and value) to this program. By now it is just a weekend project that I have done. I'm posting this publicly because someone could find it useful or entertaining.
+
 This project is not affiliated with Facebook in any way.
